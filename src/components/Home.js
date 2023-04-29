@@ -7,9 +7,9 @@ import './Home.css'
 
 const Home = () => {
     console.log('Enter Home');
-    const introPath = '../video/self-intro.mp4'
-    const musicPath = '../audio/background-music.mp3'
-    const autoVideoPath = '../video/autoplay.mp4'
+    const introPath = process.env.PUBLIC_URL + 'video/self-intro.mp4'
+    const musicPath = process.env.PUBLIC_URL + 'audio/background-music.mp3'
+    const autoVideoPath = process.env.PUBLIC_URL + 'video/autoplay.mp4'
     return (
       <div className="Home">
         <Navbar />

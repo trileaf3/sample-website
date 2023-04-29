@@ -3,9 +3,9 @@ import './Contact.css';
 
 const Contact = () => {
     console.log("Enter Contact");
-    const fb_path = '../images/fb.png';
-    const linkedin_path = '../images/linkedin.png';
-    const photo = '../images/self.jpg';
+    const fb_path = process.env.PUBLIC_URL + 'images/fb.png';
+    const linkedin_path = process.env.PUBLIC_URL + 'images/linkedin.png';
+    const photo = process.env.PUBLIC_URL + 'images/self.jpg';
     // <a href={logo} className="logo">
     //     <img src={logo} alt="Description" height="30" />
     // </a>
