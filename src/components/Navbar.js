@@ -5,8 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     const [navLinksVisible, setNavLinksVisible] = useState(false);
-    const logoPath = 'logo512.png';
-    const logo = process.env.PUBLIC_URL + logoPath
+    const logoPath = '../images/logo512.png';
 
     const toggleNavLinks = () => {
         setNavLinksVisible(!navLinksVisible);
@@ -17,8 +16,8 @@ const Navbar = () => {
         <header>
             <nav className="navbar">
                 {/* <a href={localLogo} target="_blank" rel="noopener noreferrer" className="logo"> */}
-                <a href={logo} className="thelogo">
-                    <img src={logo} alt="Description" height="30" />
+                <a href={logoPath} className="thelogo">
+                    <img src={logoPath} alt="Description" height="30" />
                 </a>
                 <ul className={`nav-links ${navLinksVisible ? 'show' : ''}`}>
                     <li><a href="/">Home</a></li>

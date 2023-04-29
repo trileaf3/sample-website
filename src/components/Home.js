@@ -7,10 +7,9 @@ import './Home.css'
 
 const Home = () => {
     console.log('Enter Home');
-    const introPath = process.env.PUBLIC_URL + './self-intro.mp4'
-    // if it is error, should be caught by here
-    const musicPath = process.env.PUBLIC_URL + './background-music.mp3'
-    const autoVideoPath = process.env.PUBLIC_URL + './autoplay.mp4'
+    const introPath = '../video/self-intro.mp4'
+    const musicPath = '../audio/background-music.mp3'
+    const autoVideoPath = '../video/autoplay.mp4'
     return (
       <div className="Home">
         <Navbar />

@@ -19,17 +19,6 @@ const AudioPlayer = ({src}) => {
         }
     }
 
-    // useEffect(() => {
-    //     const handleAutoplay = () => {
-    //         setIsPlaying(audioRef.current.autoplay);
-    //     };
-
-    //     audioRef.current.addEventListener("play", handleAutoplay);
-    //     return () => {
-    //         audioRef.current.removeEventListener("play", handleAutoplay);
-    //     };
-    // }, []);
-
     return (
         <div className="audio-player">
             {/* <audio ref={audioRef} src={src} autoPlay muted preload='metadata' /> */}
