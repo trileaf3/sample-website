@@ -1,6 +1,5 @@
 .ServicePage {
-    background-image: url(${process.env.PUBLIC_URL}/images/background2.jpeg) 
-    /* display: flex; */
+    background-image: url(${process.env.PUBLIC_URL}/images/background2.jpeg);
     height: 600px;
     position: relative;
 }
