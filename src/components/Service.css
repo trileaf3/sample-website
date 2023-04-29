@@ -1,0 +1,24 @@
+.ServicePage {
+    background-image: url('../background2.jpeg');
+    /* display: flex; */
+    height: 600px;
+    position: relative;
+}
+
+.IntroBox {
+    margin: 1rem auto;
+    height: 200px;
+    width: 350px;
+}
+
+.back-button {
+    color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.top-page {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
