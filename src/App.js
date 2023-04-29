@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 
 function App() {
   console.log('enter App');
+  console.log("public url: " + process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
