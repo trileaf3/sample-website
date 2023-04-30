@@ -4,6 +4,7 @@ import VideoComponent from './VideoComponent';
 import Audio from './Audio';
 import AutoVideo from './AutoVideo';
 import './Home.css'
+import BackgroundPage from './BackgroundPage';
 
 const Home = () => {
     console.log('Enter Home');
@@ -12,6 +13,7 @@ const Home = () => {
     const autoVideoPath = process.env.PUBLIC_URL + '/video/autoplay.mp4'
     return (
       <div className="Home">
+        <BackgroundPage image="images/background1.jpeg"/>
         <Navbar />
         {/* Background music */}
         <Audio

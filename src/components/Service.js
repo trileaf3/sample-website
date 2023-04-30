@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import BackgroundPage from './BackgroundPage';
 import './Service.css'
 
 function sendEmail(e) {
@@ -30,6 +31,8 @@ const Service = () => {
 
     return (
         <div className="ServicePage">
+            <BackgroundPage image="images/background2.jpeg" />
+
             <div className='top-page'>
                 <h1> Welcome to the service page </h1>
                 <p>If you want to work with me, welcome to fill in the info bottom</p>
