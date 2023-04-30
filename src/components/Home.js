@@ -13,7 +13,6 @@ const Home = () => {
     const autoVideoPath = process.env.PUBLIC_URL + '/video/autoplay.mp4'
     return (
       <div className="Home">
-        <BackgroundPage image="images/background1.jpeg"/>
         <Navbar />
         {/* Background music */}
         <Audio
@@ -36,6 +35,7 @@ const Home = () => {
           height="640"
           controls
         />
+        <BackgroundPage image="images/background1.jpeg" />
       </div>
     );
 };

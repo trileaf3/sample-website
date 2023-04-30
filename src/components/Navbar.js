@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav className="navbar">
                 {/* <a href={localLogo} target="_blank" rel="noopener noreferrer" className="logo"> */}
                 <a href={logoPath} target="_blank" rel="noopener noreferrer" className="thelogo">
-                    <img src={logoPath} alt="Description" height="30" />
+                    <img src={logoPath} alt="logo" height="30" />
                 </a>
                 <ul className={`nav-links ${navLinksVisible ? 'show' : ''}`}>
                     <li><a href="/">Home</a></li>
