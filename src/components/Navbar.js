@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     const [navLinksVisible, setNavLinksVisible] = useState(false);
-    const logoPath = process.env.PUBLIC_URL + 'images/logo512.png';
+    const logoPath = process.env.PUBLIC_URL + '/images/logo512.png';
 
     const toggleNavLinks = () => {
         setNavLinksVisible(!navLinksVisible);

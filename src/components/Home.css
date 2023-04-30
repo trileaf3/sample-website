@@ -1,3 +1,3 @@
 .Home {
-    /* background-image: url(${process.env.PUBLIC_URL}/images/background1.jpeg); */
+    background-image: url(${process.env.PUBLIC_URL}/images/background1.jpeg);
 }
