@@ -4,7 +4,7 @@ import VideoComponent from './VideoComponent';
 import Audio from './Audio';
 import AutoVideo from './AutoVideo';
 import './Home.css'
-import BackgroundPage from './BackgroundPage';
+// import BackgroundPage from './BackgroundPage';
 
 const Home = () => {
     console.log('Enter Home');
@@ -35,7 +35,7 @@ const Home = () => {
           height="640"
           controls
         />
-        <BackgroundPage image="images/background1.jpeg" />
+        {/* <BackgroundPage image="images/background1.jpeg" /> */}
       </div>
     );
 };

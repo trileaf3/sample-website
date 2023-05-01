@@ -1,6 +1,5 @@
 // Navbar.js
 import React, { useState } from 'react';
-// import localLogo from '../logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -20,11 +19,11 @@ const Navbar = () => {
                     <img src={logoPath} alt="logo" height="30" />
                 </a>
                 <ul className={`nav-links ${navLinksVisible ? 'show' : ''}`}>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/publications">Publications</a></li>
-                    <li><a href="/service">Services</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href={'/'}>Home</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/resume'}>Resume</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/publications'}>Publications</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/service'}>Services</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/contact'}>Contact</a></li>
                 </ul>
                 <button className="menu-toggle" onClick={toggleNavLinks}>Menu</button>
             </nav>

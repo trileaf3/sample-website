@@ -31,7 +31,7 @@ const Service = () => {
 
     return (
         <div className="ServicePage">
-            <BackgroundPage image="images/background2.jpeg" />
+            {/* <BackgroundPage image="images/background2.jpeg" /> */}
 
             <div className='top-page'>
                 <h1> Welcome to the service page </h1>
@@ -58,7 +58,7 @@ const Service = () => {
                     </form>
                 </div> 
             )}
-            <div className="back-button"><a href="/">Back to Home</a></div>
+            <div className="back-button"><a href={process.env.PUBLIC_URL}>Back to Home</a></div>
         </div>
     );
 }

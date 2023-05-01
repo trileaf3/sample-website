@@ -1,6 +1,9 @@
 .ServicePage {
+    background: url('../../public/images/background2.jpeg');
     height: 600px;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .IntroBox {

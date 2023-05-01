@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import Service from './components/Service';
@@ -8,16 +8,16 @@ function App() {
   console.log('enter App');
   console.log("public url: " + process.env.PUBLIC_URL);
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div className="App">
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/service' element={<Service />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Routes>
+          <Route exact path={'/'} element={<Home />} />
+            <Route path={'/resume'} element={<Resume />} />
+            <Route path={'/service'} element={<Service />} />
+            <Route path={'/contact'} element={<Contact />} />
+          </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

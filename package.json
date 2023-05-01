@@ -1,6 +1,6 @@
 {
-  "homepage": "https://trileaf3.github.io/sample-website",
-  "name": "xinxinxin-website",
+  "homepage": "https://trileaf3.github.io/sample-website/#",
+  "name": "sample-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

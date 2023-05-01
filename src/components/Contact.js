@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <h3> Tel: +1 858-233-4567</h3>
             <h3> Email: xxxxasd@gmail.com</h3>
-            <p><a href="/">Back to Home</a></p>
+            <p><a href={process.env.PUBLIC_URL}>Back to Home</a></p>
         </div>
     );
 }

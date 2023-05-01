@@ -4,6 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const router = createHashRouter([
+//   {
+//     path: "/*",
+//     element: <App />,
+//   }
+// ]);
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <RouterProvider router={router} basename={process.env.PUBLIC_URL}/>
+//   </React.StrictMode>
+// );
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
